@@ -1,8 +1,8 @@
 ﻿namespace WebApplication1.Controller;
 public class Visit()
 {
-    public string visitDate { get; set; }
-    public Animal visitAnimal { get; set; }
-    public string visitDescription { get; set; }
-    public double visitPrice { get; set; }
+    public string Date { get; set; }
+    public Animal? Animal { get; set; }
+    public string Description { get; set; }
+    public double Price { get; set; }
 }
